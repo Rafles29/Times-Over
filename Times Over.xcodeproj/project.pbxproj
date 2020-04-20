@@ -3,27 +3,48 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		DB15C68E244C3EC400CC9613 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB15C68D244C3EC400CC9613 /* AppDelegate.swift */; };
 		DB15C690244C3EC400CC9613 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB15C68F244C3EC400CC9613 /* SceneDelegate.swift */; };
-		DB15C692244C3EC400CC9613 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB15C691244C3EC400CC9613 /* ViewController.swift */; };
+		DB15C692244C3EC400CC9613 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB15C691244C3EC400CC9613 /* StartViewController.swift */; };
 		DB15C695244C3EC400CC9613 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB15C693244C3EC400CC9613 /* Main.storyboard */; };
 		DB15C697244C3EC500CC9613 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB15C696244C3EC500CC9613 /* Assets.xcassets */; };
 		DB15C69A244C3EC500CC9613 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB15C698244C3EC500CC9613 /* LaunchScreen.storyboard */; };
+		DB15C6A5244C598A00CC9613 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB15C6A4244C598A00CC9613 /* SettingsViewController.swift */; };
+		DB15C6A7244C59B900CC9613 /* CreditsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB15C6A6244C59B900CC9613 /* CreditsViewController.swift */; };
+		DB15C6A9244C59FE00CC9613 /* PhrasesCreationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB15C6A8244C59FE00CC9613 /* PhrasesCreationViewController.swift */; };
+		DB15C6AB244C5A2700CC9613 /* RoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB15C6AA244C5A2700CC9613 /* RoundViewController.swift */; };
+		DB15C6AD244C5A5C00CC9613 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB15C6AC244C5A5C00CC9613 /* GameViewController.swift */; };
+		DB15C6AF244C5AAC00CC9613 /* VerifyGuessesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB15C6AE244C5AAC00CC9613 /* VerifyGuessesViewController.swift */; };
+		DB15C6B1244C5AC700CC9613 /* EndViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB15C6B0244C5AC700CC9613 /* EndViewController.swift */; };
+		DB15C6B3244C5B0100CC9613 /* GameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB15C6B2244C5B0100CC9613 /* GameManager.swift */; };
+		DB15C6B5244C67FA00CC9613 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB15C6B4244C67FA00CC9613 /* Constants.swift */; };
+		DB15C6B7244DE11E00CC9613 /* ButtonHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB15C6B6244DE11E00CC9613 /* ButtonHelper.swift */; };
+		DB9EC08A244E0E410077022E /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = DB9EC089244E0E410077022E /* IQKeyboardManagerSwift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DB15C68A244C3EC400CC9613 /* Times Over.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Times Over.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB15C68D244C3EC400CC9613 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DB15C68F244C3EC400CC9613 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DB15C691244C3EC400CC9613 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DB15C691244C3EC400CC9613 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 		DB15C694244C3EC400CC9613 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DB15C696244C3EC500CC9613 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB15C699244C3EC500CC9613 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DB15C69B244C3EC500CC9613 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB15C6A4244C598A00CC9613 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		DB15C6A6244C59B900CC9613 /* CreditsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditsViewController.swift; sourceTree = "<group>"; };
+		DB15C6A8244C59FE00CC9613 /* PhrasesCreationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhrasesCreationViewController.swift; sourceTree = "<group>"; };
+		DB15C6AA244C5A2700CC9613 /* RoundViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundViewController.swift; sourceTree = "<group>"; };
+		DB15C6AC244C5A5C00CC9613 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		DB15C6AE244C5AAC00CC9613 /* VerifyGuessesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyGuessesViewController.swift; sourceTree = "<group>"; };
+		DB15C6B0244C5AC700CC9613 /* EndViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndViewController.swift; sourceTree = "<group>"; };
+		DB15C6B2244C5B0100CC9613 /* GameManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameManager.swift; sourceTree = "<group>"; };
+		DB15C6B4244C67FA00CC9613 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		DB15C6B6244DE11E00CC9613 /* ButtonHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB9EC08A244E0E410077022E /* IQKeyboardManagerSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +78,49 @@
 		DB15C68C244C3EC400CC9613 /* Times Over */ = {
 			isa = PBXGroup;
 			children = (
+				DB15C6B6244DE11E00CC9613 /* ButtonHelper.swift */,
 				DB15C68D244C3EC400CC9613 /* AppDelegate.swift */,
 				DB15C68F244C3EC400CC9613 /* SceneDelegate.swift */,
-				DB15C691244C3EC400CC9613 /* ViewController.swift */,
-				DB15C693244C3EC400CC9613 /* Main.storyboard */,
+				DB15C6A2244C58F300CC9613 /* Models */,
+				DB15C6A3244C58FC00CC9613 /* Views */,
+				DB15C6A1244C58E800CC9613 /* Controllers */,
 				DB15C696244C3EC500CC9613 /* Assets.xcassets */,
 				DB15C698244C3EC500CC9613 /* LaunchScreen.storyboard */,
 				DB15C69B244C3EC500CC9613 /* Info.plist */,
+				DB15C6B4244C67FA00CC9613 /* Constants.swift */,
 			);
 			path = "Times Over";
+			sourceTree = "<group>";
+		};
+		DB15C6A1244C58E800CC9613 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DB15C691244C3EC400CC9613 /* StartViewController.swift */,
+				DB15C6A4244C598A00CC9613 /* SettingsViewController.swift */,
+				DB15C6A6244C59B900CC9613 /* CreditsViewController.swift */,
+				DB15C6A8244C59FE00CC9613 /* PhrasesCreationViewController.swift */,
+				DB15C6AA244C5A2700CC9613 /* RoundViewController.swift */,
+				DB15C6AC244C5A5C00CC9613 /* GameViewController.swift */,
+				DB15C6AE244C5AAC00CC9613 /* VerifyGuessesViewController.swift */,
+				DB15C6B0244C5AC700CC9613 /* EndViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		DB15C6A2244C58F300CC9613 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DB15C6B2244C5B0100CC9613 /* GameManager.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DB15C6A3244C58FC00CC9613 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DB15C693244C3EC400CC9613 /* Main.storyboard */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +139,9 @@
 			dependencies = (
 			);
 			name = "Times Over";
+			packageProductDependencies = (
+				DB9EC089244E0E410077022E /* IQKeyboardManagerSwift */,
+			);
 			productName = "Times Over";
 			productReference = DB15C68A244C3EC400CC9613 /* Times Over.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +170,9 @@
 				Base,
 			);
 			mainGroup = DB15C681244C3EC400CC9613;
+			packageReferences = (
+				DB9EC088244E0E410077022E /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+			);
 			productRefGroup = DB15C68B244C3EC400CC9613 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,9 +200,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB15C692244C3EC400CC9613 /* ViewController.swift in Sources */,
+				DB15C6A9244C59FE00CC9613 /* PhrasesCreationViewController.swift in Sources */,
+				DB15C6AF244C5AAC00CC9613 /* VerifyGuessesViewController.swift in Sources */,
+				DB15C692244C3EC400CC9613 /* StartViewController.swift in Sources */,
+				DB15C6B7244DE11E00CC9613 /* ButtonHelper.swift in Sources */,
+				DB15C6B3244C5B0100CC9613 /* GameManager.swift in Sources */,
 				DB15C68E244C3EC400CC9613 /* AppDelegate.swift in Sources */,
 				DB15C690244C3EC400CC9613 /* SceneDelegate.swift in Sources */,
+				DB15C6AD244C5A5C00CC9613 /* GameViewController.swift in Sources */,
+				DB15C6B1244C5AC700CC9613 /* EndViewController.swift in Sources */,
+				DB15C6AB244C5A2700CC9613 /* RoundViewController.swift in Sources */,
+				DB15C6A5244C598A00CC9613 /* SettingsViewController.swift in Sources */,
+				DB15C6A7244C59B900CC9613 /* CreditsViewController.swift in Sources */,
+				DB15C6B5244C67FA00CC9613 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,6 +410,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DB9EC088244E0E410077022E /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.5.5;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DB9EC089244E0E410077022E /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DB9EC088244E0E410077022E /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = DB15C682244C3EC400CC9613 /* Project object */;
 }
